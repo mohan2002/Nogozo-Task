@@ -1,0 +1,184 @@
+.banner-comp{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.carousel{
+    width: 97%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.one{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    border-radius: 10px;
+    box-shadow: 2px 4px 9px 0px rgba(54,50,50,0.75);
+}
+
+.demo1{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(100, 148, 237, 0.678);
+    gap: 20px;
+}
+
+.hd-1{
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.hd{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.btn-2{
+    width: 70%;
+    border: none;
+    outline: none;
+    background-color: rgba(73, 73, 73, 0.397);
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+.demo2{
+    background-image:url("../../Images/book4.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.two{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    border-radius: 10px;
+    box-shadow: 2px 4px 9px 0px rgba(54,50,50,0.75);
+}
+
+.demo3{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(150, 40, 40, 0.781);
+    color: white;
+
+}
+
+
+.btn-3{
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 50%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.demo4{
+    background-image:url("../../Images/book5.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.three{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+    border-radius: 10px;
+    box-shadow: 2px 4px 9px 0px rgba(54,50,50,0.75);
+}
+
+.demo5{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: darkgray;
+}
+
+.demo6{
+    background-image:url("../../Images/book6.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+@media all and (max-width:700px){
+    .banner-comp{
+        height: 40vh;
+    }
+    .carousel{
+        width: 100%;
+    }
+    .one, .two, .three{
+        height: 40vh;
+    }
+    .demo1, .demo3, .demo5{
+        width: 50%;
+    }
+    .hd{
+        font-size: 0.8rem;
+    }
+    .hd-1{
+        font-size: 0.9rem;
+        font-weight: 800;
+    }
+    .btn-2{
+        padding: 1px;
+        font-size: 0.8rem;
+    }
+
+    .demo2,.demo4,.demo6{
+        width: 50%;
+        background-position:center;
+        background-size: cover;
+    }
+    .btn-3{
+        padding: 4px;
+        font-size: 0.8rem;
+        border-radius: 10px;
+    }
+}
